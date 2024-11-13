@@ -6,49 +6,55 @@ const games = [
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
         comments: ["Amazing game!", "Wish there were fewer bugs..."],
-        image: "img/"
+        image: "img/ApexLegends.png",
     },
     { 
         title: "Assassin’s Creed Mirage: DE", 
         description: "Join Basim on a thrilling adventure.", 
         specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
         reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
-        comments: ["Best AC in years!", "Basim is an interesting character."]
+        comments: ["Best AC in years!", "Basim is an interesting character."],
+        image: "img/AssasinsCreed.png",
     },
     { 
         title: "Call of Duty: Black Ops 6", 
         description: "Intense multiplayer action and a gripping campaign.", 
         specs: "Platform: PC, PS5, Xbox | Genre: Shooter | Rating: 18+", 
         reviews: ["Action-packed as always!", "Best COD graphics so far."],
-        comments: ["The graphics are next-level!", "Feels repetitive but still fun."]
+        comments: ["The graphics are next-level!", "Feels repetitive but still fun."],
+        image: "img/BlackOps6.png",
     },
     { 
         title: "The Last of Us Part II", 
         description: "A deeply emotional journey in a post-apocalyptic world.", 
         specs: "Platform: PS4, PS5 | Genre: Action-Adventure | Rating: 18+", 
         reviews: ["Emotionally gripping!", "Incredible storytelling and gameplay."],
-        comments: ["Cried my eyes out!", "A masterpiece."]
+        comments: ["Cried my eyes out!", "A masterpiece."],
+        image: "img/LastOfUs2.png",
     },
     { 
         title: "Starfield", 
         description: "A vast space RPG by Bethesda.", 
         specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
         reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
-        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."]
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/Starfield.png"
     },
     { 
         title: "Cyberpunk 2077", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/Cyberpunk.png"
     },
     { 
         title: "Dead by Daylight", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/DeadByDaylight.png",
     },
     { 
         title: "EA Sports FC 25: SA", 
@@ -91,11 +97,13 @@ const games = [
         image: "img/FlightSimulator.png"
     },
     { 
-        title: "GTA V", 
+        title: "GTA V: POE", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/GTAV.png"
+        
     },
     { 
         title: "Forza Horizon 5", 
@@ -105,6 +113,48 @@ const games = [
         comments: ["Amazing game!", "Wish there were fewer bugs..."],
         image: "img/ForzaHorizon5.png"
     },
+    {
+        title: "God of War: Ragnarok", 
+        description: "Explore the open-world city of Night City.", 
+        specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
+        reviews: ["A visually stunning experience!", "Massive open world with rich details."],
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/GodOfWarRagnarokpng.png"
+    },
+    {
+        title: "Minecraft",
+        image: "img/Minecraft.png",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
+    {
+        title: "Black Myth: Wukong",
+        image: "img/Black_Myth_Wukong_cover_art.jpg",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
+    {
+        title: "Silent Hill 2 Remake",
+        image: "img/Silent_Hill_2_remake_cover.jpg",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
+
 
 ];
 
