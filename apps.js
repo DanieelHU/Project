@@ -6,52 +6,62 @@ const games = [
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
         comments: ["Amazing game!", "Wish there were fewer bugs..."],
-        image: "img/"
+        image: "img/Cyberpunk.png"
     },
     { 
-        title: "Assassin’s Creed Mirage", 
+        title: "Assassin’s Creed Mirage: DE", 
         description: "Join Basim on a thrilling adventure.", 
         specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
         reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
-        comments: ["Best AC in years!", "Basim is an interesting character."]
+        comments: ["Best AC in years!", "Basim is an interesting character."],
+        image: "img/AssasinsCreed.png"
     },
     { 
         title: "Call of Duty: Black Ops 6", 
         description: "Intense multiplayer action and a gripping campaign.", 
         specs: "Platform: PC, PS5, Xbox | Genre: Shooter | Rating: 18+", 
-        reviews: ["Action-packed as always!", "Best COD graphics so far."],
-        comments: ["The graphics are next-level!", "Feels repetitive but still fun."]
+        comments: ["The graphics are next-level!", "Feels repetitive but still fun."],
+        image: "img/BlackOps6.png",
+        reviews: [
+            "Incredible graphics and gameplay!",
+            "A bit repetitive, but still enjoyable.",
+            "The best Black Ops game yet."
+        ],
     },
     { 
         title: "The Last of Us Part II", 
         description: "A deeply emotional journey in a post-apocalyptic world.", 
         specs: "Platform: PS4, PS5 | Genre: Action-Adventure | Rating: 18+", 
         reviews: ["Emotionally gripping!", "Incredible storytelling and gameplay."],
-        comments: ["Cried my eyes out!", "A masterpiece."]
+        comments: ["Cried my eyes out!", "A masterpiece."],
+        image: "img/LastOfUs2.png"
     },
     { 
         title: "Starfield", 
         description: "A vast space RPG by Bethesda.", 
         specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
         reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
-        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."]
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/Starfield.png"
     },
     { 
         title: "Elden Ring", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/EldenRing.png"
     },
     { 
         title: "NBA 2K25", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/Nba2K25.png"
     },
     { 
-        title: "EA Sports FC 25", 
+        title: "EA Sports FC 25: SA", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
@@ -67,11 +77,12 @@ const games = [
         image: "img/GodOfWarRagnarokpng.png"
     },
     { 
-        title: "GTA V", 
+        title: "GTA V: POE", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
         reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."] 
+        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        image: "img/GTAV.png"
     },
     { 
         title: "Forza Horizon 5", 
@@ -81,24 +92,45 @@ const games = [
         comments: ["Amazing game!", "Wish there were fewer bugs..."],
         image: "img/ForzaHorizon5.png"
     },
-
+    {
+        title: "Minecraft",
+        image: "img/Minecraft.png",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
+    {
+        title: "Black Myth: Wukong",
+        image: "img/Black_Myth_Wukong_cover_art.jpg",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
+    {
+        title: "Silent Hill 2 Remake",
+        image: "img/Silent_Hill_2_remake_cover.jpg",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: [
+            "Timeless classic.",
+            "Great game but can be laggy on lower-end devices.",
+            "Endless fun and creativity!"
+        ],
+    },
 ];
+
 
 let currentGame;
 
-// Load games on page
-function loadGames() {
-    const gameList = document.getElementById('gameList');
-    gameList.innerHTML = "";
-    games.forEach((game, index) => {
-        const gameElement = document.createElement('div');
-        gameElement.className = 'game';
-        gameElement.innerHTML = `<img src="path/to/game${index + 1}.jpg" alt="${game.title}">
-                                 <h3>${game.title}</h3>`;
-        gameElement.onclick = () => showDetails(game);
-        gameList.appendChild(gameElement);
-    });
-}
+// Betölti a gameket
 function loadGames() {
     const gameList = document.getElementById('gameList');
     gameList.innerHTML = ""; // Töröljük a már meglévő tartalmat, ha van
@@ -113,7 +145,22 @@ function loadGames() {
         gameList.appendChild(gameElement);
     });
 }
+function displayGames(filteredGames) {
+    const gameList = document.getElementById('gameList');
+    gameList.innerHTML = "";  // Törli az előző keresési eredményeket
 
+    // Minden játékot hozzáad a listához
+    filteredGames.forEach(game => {
+        const gameElement = document.createElement('div');
+        gameElement.className = 'game';
+        gameElement.innerHTML = `
+            <img src="${game.image}" alt="${game.title}">
+            <h3>${game.title}</h3>
+        `;
+        gameElement.onclick = () => showDetails(game); // Részletek megjelenítése kattintásra
+        gameList.appendChild(gameElement);
+    });
+}
 
 // vélemény, kommentek
 function showDetails(game) {
@@ -147,9 +194,45 @@ function recommendGame() {
     currentGame = games[Math.floor(Math.random() * games.length)];
     document.getElementById('randomGameTitle').textContent = currentGame.title;
 }
+function searchGames() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase(); // A keresett kifejezés
+    const filteredGames = games.filter(game => game.title.toLowerCase().includes(searchTerm)); // Szűrés
+    displayGames(filteredGames); // A szűrt játékok megjelenítése
+}
 
 // Oldal inicializálása
 window.onload = () => {
     loadGames();
     recommendGame();
 };
+// JavaScript code for handling game card interactions and displaying detailed pop-ups
+
+// Function to handle card click and show game details in a modal
+function showGameDetails(game) {
+    // Find the game details from the card
+    const { title, image, description, specs, reviews, rating, ratingCount } = game;
+
+    // Update modal content
+    document.getElementById("gameModalTitle").innerText = title;
+    document.getElementById("gameModalImage").src = image;
+    document.getElementById("gameModalDescription").innerText = description;
+    document.getElementById("gameModalSpecs").innerText = specs;
+    
+
+    // Show the modal
+    document.getElementById("gameModal").style.display = "block";
+}
+
+
+// Function to close the modal
+function closeModal() {
+    document.getElementById("gameModal").style.display = "none";
+}
+
+// Initialize event listeners for game cards
+document.querySelectorAll(".game-card").forEach((card, index) => {
+    card.addEventListener("click", () => showGameDetails(games[index]));
+});
+
+// Event listener for modal close button
+document.getElementById("closeModalButton").addEventListener("click", closeModal);
