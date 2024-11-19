@@ -4,8 +4,8 @@ const games = [
         title: "Apex Legends", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
-        reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        reviews: ["Highly competitive!", "Addictive gameplay."],
+        comments: ["Best shooter I've played!", "Needs better matchmaking."],
         image: "img/ApexLegends.png",
     },
     { 
@@ -44,8 +44,8 @@ const games = [
         title: "Cyberpunk 2077", 
         description: "Explore the open-world city of Night City.", 
         specs: "Platform: PC, PS5, Xbox | Genre: RPG | Rating: 18+", 
-        reviews: ["A visually stunning experience!", "Massive open world with rich details."],
-        comments: ["Amazing game!", "Wish there were fewer bugs..."],
+        reviews: ["Visually stunning but flawed.", "Amazing story and characters."],
+        comments: ["Immersive experience!", "Buggy at launch but better now."],
         image: "img/Cyberpunk.png"
     },
     { 

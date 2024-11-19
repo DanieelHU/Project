@@ -9,27 +9,52 @@ body {
     background-color: #121212;
     color: #f1f1f1;
 }
-
-header {
+.header-container {
     background-color: #1b1b1b;
-    padding: 20px;
-    color: #4db8ff;
+    color:  #4caf50;
     text-align: center;
+    padding: 20px;
 }
 
-header nav a {
-    color: #4db8ff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
-header input[type="text"] {
+.logo {
+    width: 80px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.logo-title h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Search input */
+.header-container input[type="text"] {
     padding: 8px;
     margin-top: 10px;
     width: 50%;
     border: none;
     border-radius: 5px;
+}
+
+/* Hover effektek */
+.logo:hover,
+.logo-title h1:hover {
+    cursor: pointer;
+    color: #ffffff;
+    opacity: 0.9;
 }
 
 /* .featured-nav {
