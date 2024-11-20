@@ -24,6 +24,13 @@ const games = [
         comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/Battlefield.png",
     },
+    {
+        title: "Black Myth: Wukong",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+        image: "img/Wukong.png",
+    },
     { 
         title: "Call of Duty: Black Ops 6", 
         description: "Intense multiplayer action and a gripping campaign.", 
@@ -34,14 +41,10 @@ const games = [
     },
     {
         title: "Call of Duty: Modern Warfare III",
-        image: "img/ModernWarfare3.png",
         description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
         specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: [
-            "Timeless classic.",
-            "Great game but can be laggy on lower-end devices.",
-            "Endless fun and creativity!"
-        ],
+        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+        image: "img/ModernWarfare3.png",
     },
     { 
         title: "Counter-Strike 2", 
@@ -149,16 +152,20 @@ const games = [
         image: "img/LegoStarWars.png"
         
     },
+    { 
+        title: "Marvel's Spider-Man 2", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/SpiderMan2.png"
+    },
     {
         title: "Minecraft",
-        image: "img/Minecraft.png",
         description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
         specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: [
-            "Timeless classic.",
-            "Great game but can be laggy on lower-end devices.",
-            "Endless fun and creativity!"
-        ],
+        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+        image: "img/Minecraft.png",
     },
     { 
         title: "NBA 2K25", 
@@ -185,6 +192,45 @@ const games = [
         image: "img/Overwatch2.png"
     },
     { 
+        title: "PUBG: Battlegrounds", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/Pubg.png"
+    },
+    { 
+        title: "Red Dead Redemption 2", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/RDR2.png"
+    },
+    { 
+        title: "Rocket League", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/RocketLeague.png"
+    },
+    { 
+        title: "Sea of Thieves", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/SeaOfThieves.png"
+    },
+    {
+        title: "Silent Hill 2 Remake",
+        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
+        specs: "Platform: PC, Xbox, PlayStation, Mobile",
+        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+        image: "img/SilentHill2test.png",
+    },
+    { 
         title: "Starfield", 
         description: "A vast space RPG by Bethesda.", 
         specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
@@ -192,27 +238,53 @@ const games = [
         comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
         image: "img/Starfield.png"
     },
-    {
-        title: "Black Myth: Wukong",
-        image: "img/Wukong.png",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: [
-            "Timeless classic.",
-            "Great game but can be laggy on lower-end devices.",
-            "Endless fun and creativity!"
-        ],
+    { 
+        title: "Star Wars: Jedi Fallen Order", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/FallenOrder.png"
     },
-    {
-        title: "Silent Hill 2 Remake",
-        image: "img/Silent_Hill_2_remake_cover.jpg",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: [
-            "Timeless classic.",
-            "Great game but can be laggy on lower-end devices.",
-            "Endless fun and creativity!"
-        ],
+    { 
+        title: "Star Wars Outlaws", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/StarWarsOutlaws.png"
+    },
+    { 
+        title: "The Last of Us 2", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/LastOfUs2.png"
+    },
+    { 
+        title: "The Sims 4", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/Sims4.png"
+    },
+    { 
+        title: "Tom Clancy's Rainbow Six Siege", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/RainbowSix.png"
+    },
+    { 
+        title: "Valorant", 
+        description: "A vast space RPG by Bethesda.", 
+        specs: "Platform: PC, Xbox Series X|S | Genre: RPG | Rating: 18+", 
+        reviews: ["A new era in RPGs!", "Bethesda's best work yet."],
+        comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
+        image: "img/Valorant.png"
     },
 
 
