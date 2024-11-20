@@ -57,18 +57,27 @@ body {
     opacity: 0.9;
 }
 
-/* .featured-nav {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-} */
+.custom-button {
+    background-color: grey;
+    color: white;
+    border: none; 
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
 
 
-/* .nav-item img {
-    width: 100%;
-    height: 60vh;
-    opacity: 0.6;
-} */
+.custom-button:hover {
+    background-color: #45a049; 
+}
+
+.custom-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
 
 .nav-item h2 {
     position: absolute;
@@ -172,19 +181,7 @@ body {
 .carousel-caption p {
     color: #ccc;
 }
-/* Star rating */
-/* #gameModalStars {
-    font-size: 1.2em;
-    color: gold;
-} */
-/* Carousel képbeállítás */
-/* .carousel-inner img {
-    width: 100%;
-    height: 60vh; 
-    object-fit: cover; 
-} */
 
-/* Centering Carousel Content */
 .carousel-caption {
     position: absolute;
     bottom: 20px;
@@ -196,7 +193,6 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
-/* Carousel képek igazítása és kitöltése */
 .carousel-item img {
     width: 100%;
     height: 60vh;

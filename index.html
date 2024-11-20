@@ -13,7 +13,7 @@
 <body>
       <div class="header-container">
         <div class="logo-title">
-            <img src="img/logo.png" alt="Gaming Cloud Logo" class="logo" />
+            <img src="img/letöltés.png" alt="Gaming Cloud Logo" class="logo" />
             <h1>Cloud Gaming Hub</h1>
         </div>
         <p>Játssz a kedvenc játékaiddal platformtól függetlenül!</p>
@@ -83,8 +83,9 @@
         <section class="game-gallery">
             <h2>Legnépszerűbb játékok</h2>
             <div id="recommendedGame" class="recommended">
-                <h3>A nap játéka: <span id="randomGameTitle"></span></h3>
-                <button onclick="showDetails(currentGame)">Learn More</button>
+                <h3>A hét játéka: <span id="randomGameTitle"></span></h3>
+                <button class="custom-button" onclick="showDetails(currentGame)">Mutasd!</button>
+
             </div>
             <div id="gameList" class="games">
                 <!-- Az összes game itt lesz dinamikusan betöltve -->
@@ -98,7 +99,7 @@
                 <p id="gameDescription"></p>
                 <p id="gameSpecs"></p>
                 <div id="randomReview">
-                    <strong>Felhasználók véleménye:</strong>
+                    <strong>Előfizetőink véleménye:</strong>
                     <p id="reviewContent"></p>
                 </div>
                 <div id="comments">
