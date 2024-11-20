@@ -123,15 +123,14 @@ body {
     font-family: "Nunito", sans-serif;
 }
 .game:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px #4db8ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #45a049;
 }
 
 .game img {
     width: 100%;
     border-radius: 5px;
 }
-
 .recommended {
     padding: 20px;
     background-color: #1f1f1f;
@@ -204,4 +203,10 @@ body {
 
 footer li a{
     cursor: default;
+}
+#cardButton{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: grey;
 }
