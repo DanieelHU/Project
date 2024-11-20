@@ -16,16 +16,31 @@ body {
     text-align: center;
     padding: 20px;
 }
-
+.btnNav{
+    background-color: #221f1f ;
+    color: #f1f1f1;
+    border: none; 
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    float: right;
+}
+.btnNav:hover {
+    color: #45a049;
+}
 .logo-title {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
     margin-bottom: 10px;
+    cursor: default;
 }
 
 .logo {
+    float: left;
     width: 80px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -39,6 +54,7 @@ body {
     font-size: 1.8rem;
     margin: 0;
     color: #ffffff;
+    cursor: default !important;
 }
 
 /* Search input */
@@ -50,34 +66,11 @@ body {
     border-radius: 5px;
 }
 
-/* Hover effektek */
 .logo:hover,
-.logo-title h1:hover {
+.logo-title{
     cursor: pointer;
     color: #ffffff;
     opacity: 0.9;
-}
-
-.custom-button {
-    background-color: grey;
-    color: white;
-    border: none; 
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 16px; 
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-}
-
-
-.custom-button:hover {
-    background-color: #45a049; 
-}
-
-.custom-button:active {
-    background-color: #3e8e41;
-    transform: scale(0.98);
 }
 
 .nav-item h2 {
@@ -97,7 +90,7 @@ body {
     font-size: 1.2em;
     color: #fff;
 }
-
+/******************************************************** CARDS***************************************************************************************/
 .game-gallery {
     padding: 20px;
 }
@@ -131,6 +124,18 @@ body {
     width: 100%;
     border-radius: 5px;
 }
+#cardButton{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: grey;
+
+}
+/******************************************************** CARDS***************************************************************************************/
+
+
+
+/******************************************************** BEST GAME OF THE WEEK***************************************************************************************/
 .recommended {
     padding: 20px;
     background-color: #1f1f1f;
@@ -138,7 +143,32 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+.custom-button {
+    background-color: grey;
+    color: white;
+    border: none; 
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
 
+
+.custom-button:hover {
+    background-color: #45a049; 
+}
+
+.custom-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+
+/******************************************************** BEST GAME OF THE WEEK***************************************************************************************/
+
+
+/******************************************************** POPUP ***************************************************************************************/
 .modal {
     display: none;
     position: fixed;
@@ -170,6 +200,10 @@ body {
 .close:hover {
     color: #fff;
 }
+/******************************************************** POPUP ***************************************************************************************/
+
+
+/******************************************************** SLIDE ***************************************************************************************/
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
@@ -200,14 +234,8 @@ body {
     height: 60vh;
     object-fit: cover; 
 }
+/******************************************************** SLIDE ***************************************************************************************/
 
 footer li a{
     cursor: default;
-}
-#cardButton{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    background-color: grey;
-
 }
