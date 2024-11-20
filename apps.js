@@ -24,11 +24,12 @@ const games = [
         comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/Battlefield.png",
     },
-    {
-        title: "Black Myth: Wukong",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+    { 
+        title: "Black Myth: Wukong", 
+        description: "Join Basim on a thrilling adventure.", 
+        specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
+        reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
+        comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/Wukong.png",
     },
     { 
@@ -39,11 +40,12 @@ const games = [
         comments: ["The graphics are next-level!", "Feels repetitive but still fun."],
         image: "img/BlackOps6.png",
     },
-    {
-        title: "Call of Duty: Modern Warfare III",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+    { 
+        title: "Call of Duty: Modern Warfare III", 
+        description: "Join Basim on a thrilling adventure.", 
+        specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
+        reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
+        comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/ModernWarfare3.png",
     },
     { 
@@ -160,11 +162,12 @@ const games = [
         comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
         image: "img/SpiderMan2.png"
     },
-    {
-        title: "Minecraft",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+    { 
+        title: "Minecraft", 
+        description: "Join Basim on a thrilling adventure.", 
+        specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
+        reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
+        comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/Minecraft.png",
     },
     { 
@@ -223,11 +226,12 @@ const games = [
         comments: ["Space exploration at its finest!", "Wish it was available on PlayStation."],
         image: "img/SeaOfThieves.png"
     },
-    {
-        title: "Silent Hill 2 Remake",
-        description: "Explore a blocky, procedurally-generated 3D world with endless possibilities.",
-        specs: "Platform: PC, Xbox, PlayStation, Mobile",
-        reviews: ["Timeless classic.","Great game but can be laggy on lower-end devices.","Endless fun and creativity!"],
+    { 
+        title: "Silent Hill 2 Remake", 
+        description: "Join Basim on a thrilling adventure.", 
+        specs: "Platform: PC, PS5, Xbox | Genre: Action-Adventure | Rating: 18+", 
+        reviews: ["A return to classic AC style!", "Loved the Middle Eastern setting."],
+        comments: ["Best AC in years!", "Basim is an interesting character."],
         image: "img/SilentHill2test.png",
     },
     { 
