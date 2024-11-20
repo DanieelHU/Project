@@ -308,6 +308,8 @@ function loadGames() {
             <img src="${game.image}" alt="${game.title}">
             <p id="cardButton">Játék</p>
             <h3>${game.title}</h3>
+
+
         `;
         
         gameElement.onclick = () => showDetails(game);
