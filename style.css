@@ -15,8 +15,28 @@ body {
     color:  #4caf50;
     text-align: center;
     padding: 20px;
+    position: relative;
 }
-.btnNav{
+.btn-container {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px; 
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btnNav {
+    background-color: #221f1f;
+    color: #f1f1f1;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    position: relative; /*Ezt már netről kellett néznem mert valamiért ez is kell..*/
+    z-index: 1; /*Ő hiányzott, mert valami takarta a gombokat...*/
+}
+/* .btnNav{
     background-color: #221f1f ;
     color: #f1f1f1;
     border: none; 
@@ -25,8 +45,8 @@ body {
     font-size: 16px; 
     transition: background-color 0.3s ease;
     justify-content: center;
-    float: right;
-}
+} Ez a régi változat, itt hagyom :) */
+
 .btnNav:hover {
     color: #45a049;
 }
@@ -36,7 +56,7 @@ body {
     justify-content: center;
     gap: 15px;
     margin-bottom: 10px;
-    cursor: default;
+    /* cursor: default !important; kell ez egyáltalán? */
 }
 
 .logo {
@@ -44,20 +64,20 @@ body {
     width: 80px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
 .logo:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
 
 .logo-title h1 {
+    gap: 15px;
     font-size: 1.8rem;
     margin: 0;
     color: #ffffff;
-    cursor: default !important;
+    /* cursor: default !important; kell ez egyáltalán? */
 }
 
-/* Search input */
+/* KERESŐ */
 .header-container input[type="text"] {
     padding: 8px;
     margin-top: 10px;
@@ -68,7 +88,7 @@ body {
 
 .logo:hover,
 .logo-title{
-    cursor: pointer;
+    /* cursor: default !important; kell ez egyáltalán? */
     color: #ffffff;
     opacity: 0.9;
 }
@@ -229,13 +249,68 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
-.carousel-item img {
-    width: 100%;
-    height: 60vh;
-    object-fit: cover; 
+.carousel-item img{
+    object-fit: cover;
+    height: 500px; 
+    width: 100%; 
+    object-position: center center; 
 }
+
 /******************************************************** SLIDE ***************************************************************************************/
 
 footer li a{
-    cursor: default;
+    cursor: pointer;
+}
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: "Geist Mono", sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #1b1b1b;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #45a049;
+}
+footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #45a049;
 }
