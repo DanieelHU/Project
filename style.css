@@ -128,7 +128,7 @@ body {
     padding: 15px;
     border-radius: 10px;
     width: 180px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .game h3{
     text-align: center;
@@ -137,7 +137,7 @@ body {
 }
 .game:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px #45a049;
+    box-shadow: 0 0 5px #45a049;
 }
 
 .game img {
@@ -147,9 +147,13 @@ body {
 #cardButton{
     display: flex;
     justify-content: center;
-    align-items: end;
-    background-color: grey;
-
+    background-color: #0b500f;
+    border-radius: 2px;
+}
+#cardButton:hover{
+    background-color: #193619;
+    cursor: pointer;
+    transition: background-color 0.1s;
 }
 /******************************************************** CARDS***************************************************************************************/
 

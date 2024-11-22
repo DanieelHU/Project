@@ -306,7 +306,6 @@ function loadGames() {
         gameElement.className = 'game';
         gameElement.innerHTML = `
             <img src="${game.image}" alt="${game.title}">
-            <p id="cardButton">Játék</p>
             <h3>${game.title}</h3>
 
 
@@ -353,6 +352,7 @@ function showDetails(game) {
     });
 
     document.getElementById('gameDetails').style.display = 'flex';
+
 }
 
 // Close the modal
