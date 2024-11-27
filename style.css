@@ -21,7 +21,12 @@ body {
     position: relative;
     z-index: 10;
     } */
-
+/* .fa-solid.fa-cloud{
+    font-size: 50px;
+    text-align: center;
+    left: 2%;
+    position: absolute
+} */
 /********************** IKON ***************/
 .header-container {
     background-color: #1b1b1b;
@@ -66,7 +71,7 @@ body {
 .logo-title {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     gap: 15px;
     margin-bottom: 10px;
     /* cursor: default !important; kell ez egyáltalán? */
