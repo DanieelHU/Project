@@ -21,6 +21,9 @@ faqs.forEach(faq => {
     card.innerHTML = `
         <h3>${faq.question}</h3>
         <div class="faq-answer">${faq.answer}</div>
+        <div class="faq-arrow">
+        <p>↕</p>
+        </div>
     `;
     card.addEventListener('click', () => {
         card.classList.toggle('open');
