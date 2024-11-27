@@ -30,3 +30,17 @@
     //     reviewElement.innerText = review;
     //     reviewContainer.appendChild(reviewElement);
     // });
+
+
+            <div id="gameModal" style="display:none;">
+            <div class="modal-content">
+                <span id="closeModalButton" class="close">&times;</span>
+                <h2 id="gameModalTitle"></h2>
+                <img id="gameModalImage" src="" alt="Game Image">
+                <p id="gameModalDescription"></p>
+                <p id="gameModalSpecs"></p>
+                <div id="gameModalStars"></div>
+                <p id="gameModalRatingCount"></p>
+                <div id="gameModalReviews"></div>
+            </div>
+        </div>
