@@ -354,7 +354,7 @@ function darkMode() {
     const gameDetails = document.getElementById("gameDetails");
 
     if (document.body.classList.contains("dark-mode")) {
-        modalContent.style.backgroundColor = "black"; // modal background
+        modalContent.style.backgroundColor = "#121212"; // modal background !!!
         modalContent.style.color = "white"; // modal text color
         gameDetails.style.borderColor = "#1b1b1b"; // search
 
@@ -364,25 +364,25 @@ function darkMode() {
         const searchInput = document.getElementById("searchInput");
 
         headerContainer.style.backgroundColor = "white";
-        logoTitle.style.color = "black";
-        searchInput.style.backgroundColor = "black";
+        logoTitle.style.color = "#121212";
+        searchInput.style.backgroundColor = "#121212";
         searchInput.style.color = "white"; 
         searchInput.style.borderColor = "white"; 
     } else {
         modalContent.style.backgroundColor = "white"; // modal background
-        modalContent.style.color = "black"; // modal text color
-        gameDetails.style.borderColor = "black"; // search
+        modalContent.style.color = "#121212"; // modal text color
+        gameDetails.style.borderColor = "#121212"; // search
 
         // HEADER RÉSZ
         const headerContainer = document.querySelector(".header-container");
         const logoTitle = document.querySelector(".logo-title h1");
         const searchInput = document.getElementById("searchInput");
 
-        headerContainer.style.backgroundColor = "black";
+        headerContainer.style.backgroundColor = "#121212";
         logoTitle.style.color = "white";
         searchInput.style.backgroundColor = "white";
-        searchInput.style.color = "black"; 
-        searchInput.style.borderColor = "black";
+        searchInput.style.color = "#121212"; 
+        searchInput.style.borderColor = "#121212";
     }
 
     const footer = document.querySelector("footer");
@@ -395,9 +395,9 @@ function updateModalStyles() {
     const modalContent = document.querySelector(".modal-content");
     if (document.body.classList.contains("dark-mode")) {
         modalContent.style.backgroundColor = "white";
-        modalContent.style.color = "black";
+        modalContent.style.color = "#121212";
     } else {
-        modalContent.style.backgroundColor = "black";
+        modalContent.style.backgroundColor = "#121212";
         modalContent.style.color = "white";
     }
 }

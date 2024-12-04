@@ -31,7 +31,7 @@ body {
 
 body.dark-mode {
     background-color: white;
-    color: black;
+    color: #121212;
   }
 .header-container {
     background-color: #1b1b1b;
@@ -41,7 +41,7 @@ body.dark-mode {
     position: relative;
 }
 .header-container.dark-mode {
-    background-color: black;
+    background-color: #121212;
     color: white; 
 }
 
