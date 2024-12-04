@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./apps.js" defer></script>
 </head>
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io (1)/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
 
 <body>
     <!-- <div class="header-icon">
@@ -21,6 +21,9 @@
         <div class="btn-container">
             <a class="nav-link" href="subscriptions.html">
                 <button type="button" class="btnNav">CSATLAKOZZ</button>
+            </a>
+            <a class="nav-link">
+                <button type="button" class="btnNav" onclick="darkMode()">Világos mód</button>
             </a>
             <a class="nav-link" href="gyik.html">
                 <button type="button" class="btnNav">GYIK</button>
@@ -98,7 +101,7 @@
 
     <main>
         <section class="game-gallery">
-            <h2>Legnépszerűbb játékok</h2>
+            <h2 class="section-title">Legnépszerűbb játékok</h2>
             <div id="recommendedGame" class="recommended">
                 <h3>A hét játéka: <span id="randomGameTitle"></span></h3>
                 <button class="custom-button" onclick="showDetails(currentGame)">Mutasd!</button>
@@ -127,8 +130,6 @@
                   </div></a>
             </div>
         </div>
-
-
     </main>
 
     <footer style="background-color: #1a1a1a; color: white; padding: 20px 0;">

@@ -28,6 +28,11 @@ body {
     position: absolute
 } */
 /********************** IKON ***************/
+
+body.dark-mode {
+    background-color: white;
+    color: black;
+  }
 .header-container {
     background-color: #1b1b1b;
     color:  #4caf50;
@@ -35,6 +40,11 @@ body {
     padding: 20px;
     position: relative;
 }
+.header-container.dark-mode {
+    background-color: black;
+    color: white; 
+}
+
 .btn-container {
     display: flex;
     justify-content: flex-end; 
@@ -143,15 +153,22 @@ body {
 .game {
     cursor: pointer;
     background-color: #222;
+    color: white;
     padding: 15px;
     border-radius: 10px;
     width: 180px;
     transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+}
+.game.dark-mode {
+    background-color: white;
+    color: black; 
 }
 .game h3{
     margin-top: 20px;
     font-size: 20px;
     font-family: "Nunito", sans-serif;
+    color: white;
 }
 .game:hover {
     transform: scale(1.05);
@@ -218,11 +235,16 @@ body {
 
 .modal-content {
     background-color: #333;
+    color: white;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
     max-width: 500px;
     text-align: left;
+}
+body.dark-mode .modal-content {
+    background-color: white;
+    color: black;
 }
 
 .close {
@@ -319,6 +341,11 @@ nav ul li a {
 nav ul li a:hover {
     color: #45a049;
 }
+footer {
+    background-color: #1b1b1b; 
+    color: #f1f1f1;
+}
+
 footer a {
     color: #f1f1f1;
     text-decoration: none;
