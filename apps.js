@@ -350,11 +350,19 @@ function loadGames() {
 function darkMode() {
     document.body.classList.toggle("dark-mode");
 
+    // Gomb szövegének módosítása az ID alapján
+    const button = document.getElementById('toggleButton');
+    if (document.body.classList.contains('dark-mode')) {
+        button.textContent = 'Sötét mód';
+    } else {
+        button.textContent = 'Világos mód'; 
+    }
+
     const modalContent = document.querySelector(".modal-content");
     const gameDetails = document.getElementById("gameDetails");
 
     if (document.body.classList.contains("dark-mode")) {
-        modalContent.style.backgroundColor = "#121212"; // modal background !!!
+        modalContent.style.backgroundColor = "#121212"; // modal background
         modalContent.style.color = "white"; // modal text color
         gameDetails.style.borderColor = "#1b1b1b"; // search
 
@@ -491,4 +499,4 @@ document.querySelectorAll(".game-card").forEach((card, index) => {
 });
 
 
-document.getElementById("closeModalButton").addEventListener("click", closeModal);
+// document.getElementById("closeModalButton").addEventListener("click", closeModal);

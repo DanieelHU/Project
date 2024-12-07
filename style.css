@@ -38,7 +38,7 @@ body.dark-mode #recommendedGame {
     color: #121212;
 }
 .header-container {
-    background-color: #1b1b1b;
+    background-color: #121212;
     color:  #4caf50;
     text-align: center;
     padding: 20px;
@@ -194,18 +194,18 @@ body.dark-mode #recommendedGame {
 /******************************************************** BEST GAME OF THE WEEK***************************************************************************************/
 .recommended {
     padding: 20px;
-    background-color: #1f1f1f;
+    background-color: #161616;
     border: 1px solid #45a049;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 .custom-button {
-    background-color: grey;
-    color: white;
+    background-color: #221f1f;
+    color: #f1f1f1;
     border: none; 
     padding: 10px 10px;
     text-align: center;
-    font-size: 16px; 
+    font-size: 15px; 
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease; 
@@ -213,11 +213,10 @@ body.dark-mode #recommendedGame {
 
 
 .custom-button:hover {
-    background-color: #45a049; 
+    color: #3e8e41;
 }
 
 .custom-button:active {
-    background-color: #3e8e41;
     transform: scale(0.98);
 }
 
