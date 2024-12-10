@@ -44,3 +44,63 @@
                 <div id="gameModalReviews"></div>
             </div>
         </div>
+
+
+/********************** IKON ***************/
+/* .header-icon {
+    position: absolute;
+    width: 50px; 
+    height: auto;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+    } */
+/* .fa-solid.fa-cloud{
+    font-size: 50px;
+    text-align: center;
+    left: 2%;
+    position: absolute
+} */
+/********************** IKON ***************/
+
+    <!-- <div class="header-icon">
+        <img src="img/CurrIcon.jpg" alt="Cloud Icon">
+    </div> -->
+<!--         <p id="header">Játssz a kedvenc játékaiddal platformtól függetlenül!</p>
+        <p id="header">The new era of cloud services!</p> -->
+
+            <!-- <img src="img/letöltés.png" alt="Gaming Cloud Logo" class="logo" /> -->
+
+/* .btnNav{
+    background-color: #221f1f ;
+    color: #f1f1f1;
+    border: none; 
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+    justify-content: center;
+} Ez a régi változat, itt hagyom */
+
+    /* cursor: default !important; kell ez egyáltalán? */
+        /* cursor: default !important; kell ez egyáltalán? */
+
+
+    <!-- <div class="plan">
+      <h2>Tag</h2>
+      <p>A tagok alapcsomagja</p>
+      <ul>
+        <li>Alap funckiók</li>
+        <li>Hozzáférés az oldalhoz</li>
+      </ul>
+    </div> -->
+
+        <!--  GYIK elemek  -->
+                <!-- <li>Email: <a href="mailto:support@gamingcloud.com" -->    
+                    /* top: 0;
+    z-index: 1000; */
+        /* position: sticky; */
+
+// document.getElementById("closeModalButton").addEventListener("click", closeModal);

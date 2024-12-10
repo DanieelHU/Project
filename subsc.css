@@ -43,7 +43,6 @@ nav ul li a:hover {
     color: #45a049;
 }
 
-/* Header section styling */
 header {
     text-align: center;
     background-color: #1b1b1b;
@@ -61,7 +60,7 @@ header p {
     color: #ccc;
 }
 
-/* Pricing section styling */
+/* Árazás */
 #pricing {
     display: flex;
     justify-content: space-around;

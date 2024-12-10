@@ -499,4 +499,3 @@ document.querySelectorAll(".game-card").forEach((card, index) => {
 });
 
 
-// document.getElementById("closeModalButton").addEventListener("click", closeModal);

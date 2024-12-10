@@ -13,6 +13,7 @@ const faqs = [
     { question: "Milyen internetsebesség szükséges a zavartalan játékhoz?", answer: "Legalább 20 Mbps letöltési sebességet javaslunk a stabil játékélményhez, de a legjobb eredményhez 50 Mbps vagy gyorsabb kapcsolat ideális."},
     { question: "Támogatja-e a platformunk a többjátékos módot?", answer: "Igen, a felhőszolgáltatásunk támogatja a többjátékos módot, így barátaival is játszhat kedvenc játékaiban."}
 ];
+///////////////////////////////////////// (ChatGPT) Generált GYIK kérdések //////////////////////////////////
 
 const container = document.querySelector('.faq-container');
 faqs.forEach(faq => {
