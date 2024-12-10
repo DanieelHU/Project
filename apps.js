@@ -353,9 +353,9 @@ function darkMode() {
     // Gomb szövegének módosítása az ID alapján
     const button = document.getElementById('toggleButton');
     if (document.body.classList.contains('dark-mode')) {
-        button.textContent = 'Sötét mód';
+        button.textContent = '🌘';
     } else {
-        button.textContent = 'Világos mód'; 
+        button.textContent = '☀️'; 
     }
 
     const modalContent = document.querySelector(".modal-content");
