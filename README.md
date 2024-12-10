@@ -18,18 +18,18 @@ A projekt egy gaming platform környezetét modellezi, amely tartalmaz egy felha
 ### Egyes tevékenységek esetén várható kimenetek
 - **Előfizetés gombra kattintás**: Megjelenik egy alertbox az üzenettel: _"Az előfizetés jelenleg nem elérhető. Hamarosan érkezik!"_
 - **GYIK kérdésre kattintás**: A kattintott kérdés alatt megjelenik a válasz.
-- **Kapcsolat menüpont választása**: "Csatlakozz" gombra kattintva.
+- **Előfizetői csomag menüpont választása**: "Csatlakozz" gombra kattintva.
 
 ## Fejlesztői Dokumentáció
 
 ### Feladatok elosztása
-- **Dizájn és frontend**: [Csapattag neve]
-- **Backend fejlesztés**: [Csapattag neve]
-- **Dokumentáció és tesztelés**: [Csapattag neve]
+- **Dizájn és frontend**: [Nagy Dániel Zsolt, Lengyel Máté]
+- **Backend fejlesztés**: Kevésbé hangsúlyos [Lengyel Máté]
+- **Dokumentáció és tesztelés**: [Nagy Dániel Zsolt, Lengyel Máté]
 
 ### Github használata
-- Minden csapattag saját brancheket használt.
-- **Commit üzenetek formája**: _"[Feladat neve] megvalósítva"_
+- Mind a ketten egy branchet használtunk.
+- **Commit üzenetek formája**: Rövid és tömör, egyértelmű üzenetek
 
 ### Fejlesztői környezetek, programozási nyelvek
 - **Programozási nyelvek**: HTML, CSS, JavaScript

@@ -232,9 +232,17 @@ body.dark-mode .modal-content {
 .close:hover {
     color: #fff;
 }
-#commentList{
-    list-style-type: '👥';
-}
+#commentList {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  #commentList li::before {
+    content: '\f007'; /* Font Awesome "user" ikon kódja */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; /* Font Awesome 5 Free használatakor szükséges */
+    margin-right: 8px;
+  }
 /******************************************************** POPUP ***************************************************************************************/
 
 
