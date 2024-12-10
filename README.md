@@ -1,4 +1,4 @@
-# Project# Projekt Dokumentáció
+# Project Dokumentáció
 
 ## Bevezetés
 
