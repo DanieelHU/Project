@@ -24,7 +24,10 @@ body.dark-mode #recommendedGame {
     color:  #4caf50;
     text-align: center;
     padding: 20px;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #45a049;
 }
 .header-container.dark-mode {
     background-color: #121212;
@@ -147,7 +150,7 @@ body.dark-mode #recommendedGame {
 }
 .game:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px #45a049;
 }
 
 .game img {
@@ -238,10 +241,11 @@ body.dark-mode .modal-content {
   }
   
   #commentList li::before {
-    content: '\f007'; /* Font Awesome "user" ikon kódja */
+    content: '\f2bd'; /* Font Awesome "user" ikon kódja */
     font-family: 'Font Awesome 5 Free';
     font-weight: 900; /* Font Awesome 5 Free használatakor szükséges */
     margin-right: 8px;
+
   }
 /******************************************************** POPUP ***************************************************************************************/
 
@@ -276,8 +280,7 @@ body.dark-mode .modal-content {
     object-fit: cover;
     height: 500px; 
     width: 100%; 
-    object-position: center center;
-    border-top: 1px solid #45a049; 
+    object-position: center center; 
     border-bottom: 1px solid #45a049; 
 }
 
