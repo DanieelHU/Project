@@ -28,6 +28,7 @@ body.dark-mode #recommendedGame {
     top: 0;
     z-index: 10;
     border-bottom: 1px solid #45a049;
+    height: 80px;
 }
 .header-container.dark-mode {
     background-color: #121212;
@@ -83,7 +84,10 @@ body.dark-mode #recommendedGame {
     margin: 0;
     color: #ffffff;
 }
-
+.search-container{
+    max-width: 1600px;
+    margin: -45px auto;
+}
 /* KERESŐ */
 .header-container input[type="text"] {
     padding: 8px;
@@ -97,6 +101,7 @@ body.dark-mode #recommendedGame {
 .logo-title{
     color: #ffffff;
     opacity: 0.9;
+    max-width: 300px;
 }
 
 .nav-item h2 {
