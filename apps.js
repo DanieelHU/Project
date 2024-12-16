@@ -350,12 +350,14 @@ function loadGames() {
 function darkMode() {
     document.body.classList.toggle("dark-mode");
 
-    // Gomb szövegének módosítása az ID alapján
-    const button = document.getElementById('toggleButton');
+    // Ikon váltása Font Awesome használatával
+    const buttonIcon = document.getElementById('toggleButton').querySelector('i');
     if (document.body.classList.contains('dark-mode')) {
-        button.textContent = '🌘';
+        buttonIcon.classList.remove('fa-sun');
+        buttonIcon.classList.add('fa-moon');
     } else {
-        button.textContent = '☀️'; 
+        buttonIcon.classList.remove('fa-moon');
+        buttonIcon.classList.add('fa-sun');
     }
 
     const modalContent = document.querySelector(".modal-content");
@@ -397,6 +399,7 @@ function darkMode() {
     footer.style.backgroundColor = "";
     footer.style.color = "";
 }
+
 
 // MODAL COLOR SWTICH
 function updateModalStyles() { 

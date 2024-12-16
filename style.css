@@ -60,6 +60,11 @@ body.dark-mode #recommendedGame {
     color: #45a049;
     transition: 0.2s;
 }
+#toggleButton:hover i{
+    color: none; 
+}
+
+
 .logo-title {
     display: flex;
     align-items: center;
