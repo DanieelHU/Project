@@ -16,7 +16,13 @@
 <body>
 
     <div class="header-container">
-        <div class="btn-container">
+        <!-- Hamburger gomb -->
+        <button class="hamburger" id="hamburgerButton" onclick="toggleMenu()">
+            <i class="fas fa-bars" id="menuIcon"></i>
+        </button>
+    
+        <!-- Lenyíló menü -->
+        <div class="dropdown-menu" id="dropdownMenu">
             <a class="nav-link" href="subscriptions.html">
                 <button type="button" class="btnNav">Csatlakozz</button>
             </a>
@@ -25,10 +31,12 @@
             </a>
             <a class="nav-link">
                 <button type="button" class="btnNav" id="toggleButton" onclick="darkMode()">
-                    <i class="fas fa-sun"></i> <!-- Alapértelmezett ikon -->
+                    <i class="fas fa-sun"></i>
                 </button>
             </a>
         </div>
+    
+        <!-- Logó és kereső -->
         <div class="logo-title">
             <h1>Game Cloud <i class="fa-solid fa-cloud"></i></h1>
         </div>
@@ -36,6 +44,8 @@
             <input type="text" id="searchInput" placeholder="Keress egy játékot.." oninput="searchGames()"> 
         </div>
     </div>
+    
+    
 
     <section class="featured-nav">
         <div id="gameCarousel" class="carousel slide" data-bs-ride="carousel">

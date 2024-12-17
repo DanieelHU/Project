@@ -104,3 +104,12 @@
         /* position: sticky; */
 
 // document.getElementById("closeModalButton").addEventListener("click", closeModal);
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px; 
+    position: relative;
+    top: 20px;
+    right: 20px;
+}

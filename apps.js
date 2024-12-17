@@ -346,6 +346,19 @@ function loadGames() {
         gameList.appendChild(gameElement);
     });
 }
+//HAMBURGER--------------
+function toggleMenu() {
+    const menu = document.getElementById("dropdownMenu");
+    const icon = document.getElementById("menuIcon");
+    const button = document.getElementById("hamburgerButton");
+
+    // Menü megjelenítése/elrejtése
+    menu.classList.toggle("show");
+
+    // Hamburger ikon forgatása
+    button.classList.toggle("rotate");
+}
+//HAMBURGER--------------
 //SÖTÉT-VILÁGOS MÓD---------------------------------------------------------------
 function darkMode() {
     document.body.classList.toggle("dark-mode");
